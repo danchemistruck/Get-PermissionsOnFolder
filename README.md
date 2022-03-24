@@ -1,5 +1,4 @@
-<#
-	.SYNOPSIS
+.SYNOPSIS
 	Exports Directory Permissions to be used for cross forest migration. Collects all permissions on the root folder and only uninherited permissions on subdirectories. Individual files are excluded as well.
 	
 	.DESCRIPTION
@@ -35,4 +34,4 @@
 
     The export file contains the following headers:
     AccountType	Name	FullName	InheritanceEnabled	InheritedFrom	AccessControlType	AccessRights	Account	InheritanceFlags	IsInherited	PropagationFlags
-#>
+
